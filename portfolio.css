@@ -1,0 +1,162 @@
+.bg-container{
+    background-color: #031a36;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* main body */
+
+.name-heading{
+    background: -webkit-linear-gradient(right, #8f0091, #158cd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.intro-heading{
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-para{
+    color: darkgray;
+    font-size: 18px;
+}
+
+.cv-button{
+    background-image: linear-gradient(to left ,#8f0091, #158cd6);
+    color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+/* Projects */
+
+.projects{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.card-container{
+            border-style : solid;
+            border-width: 2px;
+            border-image: linear-gradient(to left, #8f0091, #158cd6);
+            border-image-slice: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: transparent;
+}
+
+.card-heading{
+    color: #fff;
+    font-size: 18px;
+}
+
+.card-para{
+    color: darkgray;
+}
+
+.live-preview{
+    background-image: linear-gradient(to left ,#8f0091, #158cd6);
+    color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.github{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px 30px 10px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    border-color: darkgray;
+}
+
+/* technologies */
+
+.technologies{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+
+/* Additional-technologies-and-skills */
+
+.Additional-technologies-and-skills{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.progress-bar {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    width: 70%;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .progress-bar[data-level="Advanced"] { width: 90%; }
+  .progress-bar[data-level="Regular"] { width: 60%; }
+  .progress-bar[data-level="Beginner"] { width: 40%; }
+  
+
+.Additional-technologies-and-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .Additional-technologies-and-skills li {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-item {
+    margin: 15px 0;
+    position: relative;
+  }
+  
+  .timeline-item span {
+    font-weight: bold;
+    color: #6a11cb;
+  }
+    
