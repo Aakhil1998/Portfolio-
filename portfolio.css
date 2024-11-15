@@ -33,6 +33,15 @@
     font-size: 18px;
 }
 
+.logo-image{
+    border-style: solid;
+    border-width: 3px;
+    /* border-image: linear-gradient(to left, #8f0091, #158cd6); */
+    border-radius: 90px;
+    width: 25vw;
+    margin-left: 20px;
+}
+
 .cv-button{
     background-image: linear-gradient(to left ,#8f0091, #158cd6);
     color: #fff;
@@ -54,14 +63,14 @@
 }
 
 .card-container{
-            border-style : solid;
-            border-width: 2px;
-            border-image: linear-gradient(to left, #8f0091, #158cd6);
-            border-image-slice: 1;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background-color: transparent;
+    border-style : solid;
+    border-width: 2px;
+    border-image: linear-gradient(to left, #8f0091, #158cd6);
+    border-image-slice: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
 }
 
 .card-heading{
@@ -129,34 +138,19 @@
   .progress-bar[data-level="Beginner"] { width: 40%; }
   
 
-.Additional-technologies-and-skills ul {
+ul{
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
-    justify-content: center;
+    list-style-type: circle;
+    list-style-image: linear-gradient( #6a11cb, #2575fc);
   }
   
-  .Additional-technologies-and-skills li {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    border-radius: 15px;
-    padding: 5px 15px;
-    margin: 5px;
+  ul li{
+    color: #fff;
+    padding-left: 5px;
   }
+
+
+  /* About me */
   
-  .timeline {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .timeline-item {
-    margin: 15px 0;
-    position: relative;
-  }
-  
-  .timeline-item span {
-    font-weight: bold;
-    color: #6a11cb;
-  }
     
